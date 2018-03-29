@@ -11,5 +11,10 @@ export class LoginComponentComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  myFunc(){
+
+    console.log("function called");
+  }
 
 }
